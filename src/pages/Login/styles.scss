@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Login-container{
+    @apply w-[90rem] h-[41rem] rounded-3xl rounded-r-none flex justify-end;
+    background-color: white;
+}
+.login-title{
+    @apply text-4xl text-center text-white font-serif font-bold  w-72 mt-4;
+}
+.logo-area-login{
+    @apply w-full h-32 flex items-center gap-20;
+}
+.Login-area{
+    @apply w-[40rem] h-full rounded-3xl rounded-r-none bg-gradient-to-r from-[#000103] to-[#070220] flex flex-col gap-20;
+}
+.login-logo{
+    @apply w-16 h-16 rounded-full ml-8 mt-3 bg-white ;
+}
+.login-area-container{
+    @apply  font-bold font-serif text-white text-2xl flex justify-center items-center flex-col;
+}
+.login-form{
+    @apply flex flex-col;
+    
+}
+.email-input{
+    @apply text-sm p-2 rounded-full font-mono font-normal text-black w-72 focus:border-white;
+}
+.password-input {
+    @apply text-sm p-2 text-black font-mono font-normal rounded-full w-72;
+
+}
+.btn-form{
+    @apply  px-2 bg-cyan-500 rounded-full hover:bg-cyan-400 hover:duration-300 text-xl p-1 w-72 mt-3;
+}
+.divider{
+    @apply flex justify-center items-center text-white text-sm gap-4 mt-12;
+}
+.line1{
+    @apply bg-zinc-300 h-[0.5px] w-24; 
+}
+.line2{
+    @apply bg-zinc-300 h-[0.5px] w-24; 
+}
+.btn-google{
+    @apply  px-2 bg-white rounded-full hover:bg-zinc-300 gap-3 text-black text-base hover:duration-300 flex items-center justify-center font-sans font-normal p-1 w-72 mt-3; 
+}
+.img-google{
+    @apply w-6 h-6 ;
+}
+.register-text{
+    @apply text-base font-medium font-serif text-cyan-500 mt-16;
+}
+.register-btn{
+    @apply px-2 mb-3 bg-white rounded-full hover:bg-zinc-300 gap-3 text-black text-base hover:duration-300 flex items-center justify-center font-sans font-normal p-1 w-44 mt-3;
+}

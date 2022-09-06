@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    
+    @apply w-screen h-screen max-w-full bg-[#040011] absolute items-center justify-end flex;
+}
